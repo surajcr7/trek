@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Topbar Started*/
+.topbar{
+	background-color: #385477;
+	color: #fff;
+	padding: 10px 0px;
+}
+
+.topbar-right{
+	text-align: right;
+}
+
+.topbar-right i{
+	padding: 0px 7px;
+}
+
+/*@media only screen and (max-width: 600px) {
+	.topbar-right{
+		text-align: center;
+	}
+}*/
+/*Topbar Ended*/
+
+/*Navbar Started*/
+.navbar{
+	background-color: #154167 !important;
+	border: 0px;
+
+
+}
+
+.navbar li a{
+	color: ##002646 !important;
+}
+
+.navbar .dropdown-menu{
+	background-color: #db6300 !important;
+}
+
+.nav .active{
+	background-color: #212121 !important;
+}
+
+/*Navbar Ended*/
+
+
+/* Hero */
+
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item{
+    /*min-height: 280px;*/ /* Prevent carousel from being distorted if for some reason image doesn't load */
+}https://bootsnipp.com/snippets/GQ93g#
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
+}
+
+.sidebar{
+	margin-top: 20px; 
+}
+
+.sidebar .list-group-item.active, .sidebar .list-group-item.active:focus,.sidebar .list-group-item.active:hover{
+	background-color: #154167  !important; 
+	border-color: #0080db !important;
+}
+
+/* End of Hero*/
+
+/* Place Section */
+
+.place{
+	padding: 50px 0px;
+	background-image: url('../img/bg_place.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.place--heading{
+	margin: 30px 0px;
+}
+
+.placeCard{
+	overflow: hidden;
+}
+
+.title{
+	background-color: #db6300;
+	color: #fff;
+	text-align: center;
+}
+
+.btn{
+	width: 100%;
+	color: #fff;
+	border-radius: 0px !important;
+	background-color: #db6300;
+	margin: 10px 0px;
+	transition: 0.5s;
+}
+
+.btn:hover{
+	background-color: #ecc170;
+	color: #fff;
+}
+
+
+.img-thumbnail{
+	border-radius: 0px;
+	border-color: #ecc170;
+}
+
+
+/* Card Design*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.snip0078 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  float: left;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 310px;
+  width: 100%;
+  text-align: center;
+}
+figure.snip0078 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+figure.snip0078 img {
+  opacity: 1;
+  max-width: 100%;
+  border: 10px solid #000000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+figure.snip0078 figcaption {
+  bottom: 0;
+  width: 60%;
+  right: 0;
+  position: absolute;
+  background: #000000;
+  padding: 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  box-shadow: 0 0px 10px -10px #000000;
+}
+figure.snip0078 figcaption h2,
+figure.snip0078 figcaption h4,
+figure.snip0078 figcaption p {
+  margin: 0;
+  color: #333;
+}
+figure.snip0078 figcaption h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+figure.snip0078 figcaption h2 span {
+  font-weight: 800;
+}
+figure.snip0078 figcaption p {
+  font-size: 0.9em;
+  font-weight: 500;
+  opacity: 0.65;
+}
+figure.snip0078 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+figure.snip0078.yellow figcaption {
+  background: #efefef;
+}
+
+figure.snip0078.yellow img {
+  border: 10px solid #426a9e;
+}
+figure.snip0078:hover figcaption,
+figure.snip0078.hover figcaption {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 15px -15px #000000;
+}
+figure.snip0078:hover.yellow img,
+figure.snip0078.hover.yellow img {
+  border: 10px solid #db6300;
+}
+/*End of Card*/
+
+/* End Place Section*/
+
+/* Map */
+.map{
+
+}
+/* Map End */
+
+/* Footbar Start*/
+.footbar{
+	background-color: #db6300;
+	text-align: center;
+	color: #fff;
+	margin: 0px;
+	padding-top: 7px;
+}
+/* Footbar End */
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #092e5a !important;
+}
+
+.logo img{
+  height: 50px;
+  width: 50px;
+}
